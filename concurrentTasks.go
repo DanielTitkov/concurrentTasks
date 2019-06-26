@@ -82,28 +82,28 @@ func main() {
             log.Println("5, start")
             time.Sleep(1*time.Second)
             log.Println("5, end")
-            err := errors.New("emit macho dwarf: elf header corrupted")
+            err := errors.New("random error")
             return err
         },
         func() error {
             log.Println("6, start")
             time.Sleep(1*time.Second)
             log.Println("6, end")
-            err := errors.New("emit macho dwarf: elf header corrupted")
+            err := errors.New("random error")
             return err
         },
         func() error {
             log.Println("7, start")
             time.Sleep(1*time.Second)
             log.Println("7, end")
-            err := errors.New("emit macho dwarf: elf header corrupted")
+            err := errors.New("random error")
             return err
         },
         func() error {
             log.Println("8, start")
             time.Sleep(1*time.Second)
             log.Println("8, end")
-            err := errors.New("emit macho dwarf: elf header corrupted")
+            err := errors.New("random error")
             return err
         },
         func() error {
